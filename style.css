@@ -1,3 +1,65 @@
-h1 {
-    color: orange;
-}
+/* Default css reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+/* Main styles */
+
+ body {
+    display: flex;
+ }
+
+ .header {
+    font-size: 20px;
+    background-color: #fbfbfb;
+    height: 38vh;
+ }
+
+ .header p {
+    width: 70%;
+ }
+
+ .form {
+    height: 24vh;
+ }
+
+ .submit {
+    background-color: #fbfbfb;
+    height: 38vh;
+ }
+
+ img {
+    width: 827px;
+    height: 100vh;
+ }
+
