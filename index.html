@@ -8,31 +8,40 @@
 </head>
 <body>
     <section class="logo">
-        <img src="imgs/jungle.jpg" alt="Jungles">
+        <div class="image-container-1">
+            <img src="imgs/jungle.jpg" alt="Background Jungles" class="background-img">
+            <div class="image-container-2">
+                <div class="transparent-block"></div>
+                <img src="imgs/odin-logo.png" alt="Overlaying Odin-logo" class="overlay-img">
+                <span class="overlay-img-text">ODIN</span>
+            </div>
+        </div>
     </section>
 
     <section class="main">
         <div class="header">
-            <p>
+            <div class="hText1">
                 <b>
-                    This is not a real online service! You know you need something
-                    like this in your real life to help you realize your deepest dreams.
+                    This is not a real online service! You know you need something like this in your real life to help you realize your deepest dreams.
                 </b>
-            </p>
-            <p>
+            </div>
+            <div class="hText2">
                 <b>
                     Sign up <i>now</i> to get started.
                 </b>
-            </p>
-            <p>
+            </div>
+            <div class="hText3">
                 <b>
                     You <i>know</i> you want to.
                 </b>
-            </p>
+            </div>
         </div>
+
         <div class="form">
-            <h3 class="form-header">Let's do this!</h3>
-            <form action="example.com/path" method="post">
+            <div class="form-header">
+                <b>Let's do this!</b>
+            </div>
+            <form class="user_form" action="example.com/path" method="post">
 
                 <label for="first_name">FIRST NAME</label>
                 <input type="text" id="first_name" name="first_name">
@@ -53,6 +62,7 @@
                 <input type="password" id="password_confirmation" name="password">
             </form>
         </div>
+        
         <div class="submit">
             <button type="submit">Create Account</button>
 
