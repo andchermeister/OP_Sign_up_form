@@ -42,32 +42,49 @@
                 <b>Let's do this!</b>
             </div>
             <form class="user_form" action="example.com/path" method="post">
+                <div>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
 
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name">
+                <div>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
 
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name" name="last_name">
+                <div>
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" id="user_email" name="email">
+                    <span class="error-message">*Incorrect email format</span>
+                </div>
 
-                <label for="user_email">EMAIL</label>
-                <input type="email" id="user_email" name="email">
+                <div>
+                    <label for="user_phone_number">PHONE NUMBER</label>
+                    <input type="number" id="user_phone_number" name="phone">
+                    <span class="error-message">*Incorrect phone number</span>
+                </div>
 
-                <label for="user_phone_number">PHONE NUMBER</label>
-                <input type="number" id="user_phone_number" name="phone">
+                <div>
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password">
+                    <span class="error-message">*Passwords do not match</span>
+                </div>
 
-                <label for="user_password">PASSWORD</label>
-                <input type="password" id="user_password" name="password">
-
-                <label for="password_confirmation">CONFIRM PASSWORD</label>
-                <input type="password" id="password_confirmation" name="password">
+                <div>
+                    <label for="password_confirmation">CONFIRM PASSWORD</label>
+                    <input type="password" id="password_confirmation" name="password">
+                    <span class="error-message">*Passwords do not match</span>
+                </div>
             </form>
         </div>
         
         <div class="submit">
             <button type="submit">Create Account</button>
 
-            <p>Already have an account?</p>
-            <a href="example.com/path">Log in</a>
+            <div class="login">
+                <p>Already have an account?</p>
+                <a href="example.com/path">Log in</a>
+            </div>
         </div>
     </section>
 </body>
